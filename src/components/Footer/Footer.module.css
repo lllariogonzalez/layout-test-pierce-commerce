@@ -1,0 +1,156 @@
+.footerContainer{
+  position: relative;
+  width: 90rem;
+  height: 18.125rem;
+  flex-shrink: 0;
+  background: #000;
+  margin: auto;
+  padding: 3rem 5rem 0rem 5rem;
+}
+
+.footerBussines{
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.9rem;
+  width: 23.4375rem;
+}
+
+.frequents{
+  display: flex;
+  width: 13.8125rem;
+  height: 6.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Rubik';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+  text-transform: uppercase;
+}
+
+.regretButton{
+  width: 12.125rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-family: 'Rubik';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.875rem; /* 116.667% */
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23.4375rem;
+}
+
+.title{
+  color: #FFF;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1.69rem;
+  width: 23.4375rem;
+  padding: 1rem 2rem;
+  padding-left: 4.35rem;
+}
+
+.branchOffices{
+  display: flex;
+  gap: 1.19rem;
+}
+
+.branchOffices span{
+  color: #FFF;
+  font-family: 'Rubik';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+  text-transform: uppercase;
+}
+
+.contactMeans{
+  width: 16.625rem;
+  height: 4rem;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Rubik';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; /* 157.143% */
+}
+
+.footerTech{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tech{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pierce{
+  width: 10.81825rem;
+  height: 0.94781rem;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Rubik';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 133.333% */
+}
+
+.copyrigth{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Rubik';
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 133.333% */
+  padding: 0 11rem 0 0rem;
+}
+
+.legal{
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2rem;
+}
+
+.vtex{
+  position: absolute;
+  bottom: 2rem;
+  left: 22.5rem;
+}
