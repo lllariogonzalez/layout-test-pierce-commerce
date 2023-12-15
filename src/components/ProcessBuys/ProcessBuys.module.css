@@ -1,0 +1,11 @@
+.processBuysContainer{
+  display: flex;
+  width: 90rem;
+  padding: 2.5rem 9.375rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ECECEC;
+  margin: auto;
+  margin-top: 5rem;
+}
+
