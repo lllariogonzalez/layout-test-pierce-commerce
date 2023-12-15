@@ -1,0 +1,35 @@
+.ofersContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0.44rem;
+  width: 90.125rem;
+  margin: auto;
+  height: 26.6875rem;
+  flex-shrink: 0;
+  background: url('src/assets/images/Frame77.png'), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.groupIcons{
+  width: 6.9375rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 800px){
+  
+  .ofersContainer{
+    width: 22.5rem;
+    height: 8.75rem;
+    flex-shrink: 0;
+    background: url('src/assets/images/Frame91.png'), lightgray 50% / cover no-repeat;
+    margin-top: 1rem;
+  }
+
+  .groupIcons{
+    width: 6.8125rem;
+    height: 0.625rem;
+    flex-shrink: 0;
+  }
+}
