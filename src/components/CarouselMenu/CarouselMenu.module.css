@@ -1,0 +1,18 @@
+.carouselContainer{
+  display: flex;
+  width: 87rem;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 800px){
+
+  .carouselContainer{
+    display: none;
+  }
+
+}
