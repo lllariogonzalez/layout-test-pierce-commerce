@@ -1,0 +1,41 @@
+
+.profileContainer{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 9.44rem
+}
+
+.accountContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.userProfileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.myAccount {
+  color: #5E5E5E;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 800px){
+
+  .myAccount{
+    display: none;
+  }
+
+  .profileContainer{
+    width: 5rem;
+  }
+
+}
