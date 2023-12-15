@@ -1,0 +1,83 @@
+
+.headerContainer{
+  display: flex;
+  margin: auto;
+  width: 90rem;
+  padding: 0.875rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.125rem;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.headerDesktop{
+  display: flex;
+  padding: 0rem 4.375rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14.3125rem;
+  align-self: stretch;
+}
+
+.title{
+  color: #0F1E7B;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+}
+
+.userAction{
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+
+.burgerIcon{
+  width: 1.11763rem;
+  height: 1rem;
+  fill: #5E5E5E;
+}
+
+.headerMobile{
+  display: none;
+  width: 22.5rem;
+  height: 5rem;
+  flex-shrink: 0;
+  background: #FFF;
+}
+
+@media screen and (max-width: 800px){
+
+  .headerDesktop{
+    display: none;
+  }
+
+  .headerContainer{
+    width: 22.5rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    background: #FFF;
+  }
+
+  .headerMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .bussiness{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+}
