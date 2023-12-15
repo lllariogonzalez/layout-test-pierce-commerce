@@ -1,0 +1,80 @@
+.categoriesContainer{
+  width: 90rem;
+  padding: 0rem 4.375rem;
+  margin: auto;
+}
+
+.title{
+  color: #000;
+  width: 41.19063rem;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 2rem; /* 100% */
+  text-transform: uppercase;
+}
+
+.categoriesGrid{
+  display: grid;
+  margin-top: 1.5rem;
+  grid-template-columns: auto 1fr auto; 
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  gap: 0.73rem;
+}
+
+.category1{
+  display: flex;
+  align-items: flex-end;
+  width: 19.7635rem;
+  height: 24.9375rem;
+  flex-shrink: 0;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background: url('src/assets/images/Rectangle1.png'), lightgray 50% / cover no-repeat;
+}
+
+.categoriesGrid h3{
+  color: #FFF;
+  font-family: 'Rubik';
+  padding: 1rem;
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.category2{
+  display: flex;
+  align-items: flex-end;
+  width: 40.259rem;
+  height: 12.0625rem;
+  flex-shrink: 0;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: url('src/assets/images/Rectangle2.png'), lightgray 50% / cover no-repeat;
+}
+
+.category3{
+  display: flex;
+  align-items: flex-end;
+  width: 40.259rem;
+  height: 12.0625rem;
+  flex-shrink: 0;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: url('../../assets/images/Rectangle3.png') lightgray 50% / cover no-repeat;
+}
+
+.category4{
+  display: flex;
+  align-items: flex-end;
+  width: 19.7635rem;
+  height: 24.9375rem;
+  flex-shrink: 0;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  background: url('src/assets/images/Rectangle4.png'), lightgray 50% / cover no-repeat;
+}
