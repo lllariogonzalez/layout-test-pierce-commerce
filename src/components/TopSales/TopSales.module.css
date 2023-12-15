@@ -1,0 +1,25 @@
+.salesContainer{
+  position: relative;
+  display: flex;
+  width: 90rem;
+  height: 35.375rem;
+  padding: 0rem 4.375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.title{
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 2rem; /* 100% */
+  text-transform: uppercase;
+  text-transform: uppercase;
+}
