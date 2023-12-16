@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding: 0.44rem;
+  padding: 1.19rem;
   width: 90.125rem;
   margin: auto;
   height: 26.6875rem;
@@ -23,8 +23,8 @@
     width: 22.5rem;
     height: 8.75rem;
     flex-shrink: 0;
+    padding: 0.44rem;
     background: url('src/assets/images/Frame91.png'), lightgray 50% / cover no-repeat;
-    margin-top: 1rem;
   }
 
   .groupIcons{
