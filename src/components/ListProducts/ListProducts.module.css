@@ -13,7 +13,11 @@
 @media screen and (max-width: 800px){
 
   .listProducts{
-    overflow: scroll;
+    overflow-y: auto;
+    scroll-behavior: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    stroke-width: none;
   }
 
 }
