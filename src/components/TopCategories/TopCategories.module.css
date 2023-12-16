@@ -133,7 +133,7 @@
     width: 22.5rem;
     height: 13rem;
     flex-shrink: 0;
-    background: url('/RectangleM2'), lightgray 50% / cover no-repeat;
+    background: url('/RectangleM2.png'), lightgray 50% / cover no-repeat;
   }
 
   .category3{
@@ -155,7 +155,7 @@
     width: 22.5rem;
     height: 13rem;
     flex-shrink: 0;
-    background: url('RectangleM4.png'), lightgray 50% / cover no-repeat;
+    background: url('/RectangleM4.png'), lightgray 50% / cover no-repeat;
   }
 
   .nav{
