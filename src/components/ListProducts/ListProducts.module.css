@@ -1,5 +1,4 @@
 .listProducts{
-  z-index: 2;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -13,11 +12,10 @@
 @media screen and (max-width: 800px){
 
   .listProducts{
-    overflow-y: auto;
-    scroll-behavior: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    stroke-width: none;
   }
 
 }

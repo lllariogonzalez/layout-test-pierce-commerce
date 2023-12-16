@@ -97,12 +97,10 @@
     flex-wrap: nowrap;
     margin-top: 0.88rem;
     gap: 0rem;
-    overflow-y: hidden;
     overflow-x: scroll;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    stroke-width: none;
   }
 
   .title{

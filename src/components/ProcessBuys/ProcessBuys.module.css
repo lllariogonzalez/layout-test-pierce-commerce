@@ -6,7 +6,7 @@
   align-items: flex-start;
   background: #ECECEC;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 5.56rem;
 }
 
 .nav{
@@ -24,14 +24,31 @@
     overflow: scroll;
   }
 
+  .container{
+    position: relative;
+  }
+
   .nav{
-    background: #ECECEC;
-    margin: 0 auto;
-    padding: 0 0 0.5rem 0;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 22.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    gap: 0.5rem;
+  }
+
+  .nav a{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .active{
+    background-color: #000;
   }
 }
