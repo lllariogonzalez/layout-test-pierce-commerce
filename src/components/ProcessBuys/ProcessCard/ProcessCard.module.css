@@ -35,3 +35,12 @@
   line-height: 1.25rem; /* 125% */
   white-space: wrap;
 }
+
+@media screen and (max-width: 800px){
+
+  .processCardContainer{
+    width: 22.5rem;
+    flex-shrink: 0;
+    padding: 0 3rem;
+  }
+}
