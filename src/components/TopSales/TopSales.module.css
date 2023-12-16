@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   width: 90rem;
-  height: 35.375rem;
   padding: 0rem 4.375rem;
   flex-direction: column;
   justify-content: center;
@@ -17,9 +16,36 @@
   color: #000;
   font-family: 'Roboto';
   font-size: 2rem;
+  padding-left: 1rem;
   font-style: italic;
   font-weight: 800;
   line-height: 2rem; /* 100% */
   text-transform: uppercase;
   text-transform: uppercase;
+}
+
+.nav{
+  display: none;
+}
+
+@media screen and (max-width: 800px){
+  .salesContainer{
+    width: 22.5rem;
+    padding: 0rem;
+    gap: 1rem;
+    margin: 5rem auto;
+  }
+
+  .title{
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+
+  .nav{
+    width: 22.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
 }
