@@ -16,19 +16,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-body{
-  width: 90rem;
-  height: 187.875rem;
-  background: #FFF;
-  margin: auto;
-}
-
-@media screen and (max-width: 800px){
-  
-  body{
-    width: 22.5rem;
-    height: 152.8125rem;
-  }
-}
-
