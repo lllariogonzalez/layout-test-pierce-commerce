@@ -1,6 +1,6 @@
 .carouselContainer{
   display: flex;
-  width: 87rem;
+  width: 85rem;
   justify-content: space-between;
   align-items: center;
   position: absolute;
