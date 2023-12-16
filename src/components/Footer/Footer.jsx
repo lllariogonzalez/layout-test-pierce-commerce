@@ -50,10 +50,10 @@ const Footer = () => {
         </span>
       </div>
       <figure className={styles.legal}>
-        <img src="DataFiscalWeb.png" alt="Data Fiscal Web" />
+        <img src="/DataFiscalWeb.png" alt="Data Fiscal Web" />
       </figure>
       <figure className={styles.vtex}>
-        <img src="vtex.png" alt="VTEX logo" />
+        <img src="/vtex.png" alt="VTEX logo" />
       </figure>
     </section>
   )

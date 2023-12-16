@@ -4,7 +4,7 @@ const CardProduct = () => {
   return (
     <article className={styles.cardContainer}>
       <figure className={styles.imageProduct}>
-        <img src="image50.png" alt="Image Product" />
+        <img src="/image50.png" alt="Image Product" />
       </figure>
       <div className={styles.title}>
       <p>Samsung</p>

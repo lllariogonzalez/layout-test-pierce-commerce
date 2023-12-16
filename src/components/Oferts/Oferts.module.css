@@ -7,7 +7,7 @@
   margin: auto;
   height: 26.6875rem;
   flex-shrink: 0;
-  background: url('Frame77.png'), lightgray 50% / cover no-repeat;
+  background: url('/Frame77.png'), lightgray 50% / cover no-repeat;
   box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -24,7 +24,7 @@
     height: 8.75rem;
     flex-shrink: 0;
     padding: 0.44rem;
-    background: url('Frame91.png'), lightgray 50% / cover no-repeat;
+    background: url('/Frame91.png'), lightgray 50% / cover no-repeat;
   }
 
   .groupIcons{
