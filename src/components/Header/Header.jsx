@@ -3,8 +3,17 @@ import SearchBar from "./SearchBar/SearchBar";
 import UserProfile from "./UserProfile/UserProfile";
 import styles from "./Header.module.css";
 import BurgerIcon from "../Icons/BurgerIcon";
+import NavBarMobile from "./NavBarMobile/NavBarMobile";
+import { useState } from "react";
 
 const Header = () => {
+
+  const [isOpenNav, setIsOpenNav] = useState(false);
+
+  function handleNav(prevState){
+    setIsOpenNav(!prevState)
+  }
+
   return (
     <div className={styles.headerContainer}>
 
@@ -18,7 +27,8 @@ const Header = () => {
       
       <div className={styles.headerMobile}>
         <header className={styles.header}>
-          <div className={styles.burgerIcon}>
+          { isOpenNav && <NavBarMobile handleNav={handleNav}/>}
+          <div onClick={()=>handleNav()} className={styles.burgerIcon}>
             <BurgerIcon />
           </div>
           <div className={styles.bussiness}>
